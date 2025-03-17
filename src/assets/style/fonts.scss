@@ -1,0 +1,11 @@
+@for $i from 1 through 200 {
+  .font-#{$i} {
+    font-size: $i + 0px !important;
+  }
+}
+
+@for $i from 1 through 7 {
+  .weight-#{$i} {
+    font-weight: ($i * 100) + 200 !important;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "batteries-dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.7.7",
+    "moment": "^2.30.1",
+    "pinia": "^2.2.4",
+    "sass": "^1.79.5",
+    "sass-embedded": "^1.83.4",
+    "vue": "^3.5.11",
+    "vue-router": "^4.4.5",
+    "vuetify": "^3.7.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "eslint": "^9.12.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.8",
+    "vite-plugin-vue-devtools": "^7.4.6"
+  }
+}
